@@ -1,6 +1,6 @@
 class apache::mod::worker (
-  $startservers        = '2',
-  $maxclients          = '150',
+  $startservers        = '16',
+  $maxclients          = '625',
   $minsparethreads     = '25',
   $maxsparethreads     = '75',
   $threadsperchild     = '25',
